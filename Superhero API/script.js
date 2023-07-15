@@ -1,7 +1,7 @@
 //https://superheroapi.com/api/access-token/character-id
 //put -> .php after api in the above link
 
-//create your own access-token and update it here...
+//create your own access token and update it here...
 const SUPERHERO_TOKEN = 000000000000000;     
 const BASE_URL = `https://www.superheroapi.com/api.php/${SUPERHERO_TOKEN}`
 const newHeroButton = document.getElementById("NewHeroButton")
